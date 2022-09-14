@@ -1,0 +1,150 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* BANNER */
+banner {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+    background-color: black;
+    margin-top: -10px;
+}
+
+banner img {
+    height: 50px;
+    display: inline-block;
+    margin-right: 730px;
+}
+
+banner ul {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+banner li {
+    display: inline;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+a {
+    color: seashell;
+}
+
+/* HERO SECTION */
+.hero-section {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.hero-section img {
+    position: absolute;
+}
+
+.hero-section article {
+    background-color: black;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+}
+
+.hero-section h2 {
+    margin: 15px;
+}
+
+/* TEA OF THE MONTH */
+.tea-of-the-month {
+    text-align: center;
+    padding-top: 120px; 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tea-of-the-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-of-the-month article {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#myrtle-ave-tea {
+    padding-left: 165px;
+}
+
+#bedford-bizzare-tea {
+    padding-right: 165px;
+}
+
+/* LOCATIONS */
+.locations {
+    text-align: center;
+    background-image: url("./resources/images/img-locations-background.jpeg");
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+.locations h2 {
+    padding-top: 75px;
+    margin-bottom: 15px;
+}
+
+.locations article {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.locations div {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    line-height: 2.5;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.locations h3 {
+    margin-top: 30px;
+    margin-bottom: -19px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    text-align: center;
+    height: 200px;
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer h5 {
+    text-align: left;
+}
